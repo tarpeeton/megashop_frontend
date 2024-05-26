@@ -1,0 +1,46 @@
+.ContainerAbout {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.BannerImage {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.BannerRigth {
+    width: 50%;
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+
+    }
+}
+.BannerLeft {
+    width: 50%;
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+.BannerInfo {
+    p {
+        font-weight: 400;
+        color: #343333;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}
+
+.BannerCenter {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    img {
+        width: 100%;
+        height: 400px;
+    }
+}

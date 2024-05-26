@@ -1,0 +1,55 @@
+.FooterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.SocialLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #181616;
+
+}
+.Links {
+    width: 35%;
+    padding: 20px 40px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Links > a {
+    text-decoration: none;
+    color: white;
+    svg{
+        width: 35px;
+        height: 35px;
+    }
+}
+.Copyrigth {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Links {
+        width: 90%;
+
+    }
+    .SocialLinks {
+        background-color: #201e1e;
+    }
+
+}

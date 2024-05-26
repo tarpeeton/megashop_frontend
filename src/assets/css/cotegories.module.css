@@ -1,0 +1,264 @@
+.Container {
+    width: 85%;
+    height: 100%;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(270px, 1fr));
+    gap: 20px;
+}
+/* CARD uchun */
+.Card {
+    position: relative;
+    max-width: 270px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    transition-duration: 0.3s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 15px;
+    text-align: center;
+}
+.Card:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transform: translateY(-10px);
+}
+.CotogoriesName {
+    width: 80%;
+    font-size: 20px;
+    position: absolute;
+    transition-duration: 0.2s;
+    color: white;
+    font-weight: 700;
+    left: 10%;
+    right: 10%;
+    bottom: 15%;
+    letter-spacing: 2px;
+}
+.Card:hover .CotogoriesName {
+    transform: translateY(-15px);
+    transition-duration: 0.2s;
+}
+
+
+/* OHIRGI GRID COTEGORIES uchun*/
+
+.LastContainer {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.BigContainer {
+    width: 50%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.BigContainer > img {
+    width: 100%; /* Rasmni to'liq container o'lchamiga moslashtirish */
+    height: auto; /* Harakatlanuvchi rasm o'lchami */
+    transition: transform 0.5s ease; /* Harakatlanish vaqtini belgilash */
+}
+.BigContainer:hover img {
+    transform: scale(1.2); /* Hover qilinganda rasmni o'lchamini 1.2 marta kattalashtirish */
+}
+.info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 60px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.info > h4 , p {
+    margin: 0;
+    font-size: 17px;
+}
+.GridContainers {
+    width: 50%;
+}
+
+.Row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.GridChilder {
+    width: 45%;
+    position: relative;
+    overflow: hidden;
+}
+.GridChilder > img {
+    max-width: 100%;
+}
+.GridChilderFull {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.GridChilderFull img {
+    width: 100%;
+}
+
+.infoClick {
+    height: 60px;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #141414;
+}
+.replaceToPage {
+    height: 60px;
+    text-align: right;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #141414;
+}
+.infoClick > h4 , p {
+    margin: 0;
+    font-size: 17px;
+}
+.replaceToPage > h4 , p {
+    margin: 0;
+    font-size: 17px;
+}
+.GridChilder > img {
+    width: 100%; /* Rasmni to'liq container o'lchamiga moslashtirish */
+    height: auto; /* Harakatlanuvchi rasm o'lchami */
+    transition: transform 0.5s ease; /* Harakatlanish vaqtini belgilash */
+}
+.GridChilder:hover img {
+    transform: scale(1.2); /* Hover qilinganda rasmni o'lchamini 1.2 marta kattalashtirish */
+}
+
+.InfoClick {
+    height: 60px;
+    text-align: right;
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #141414;
+}
+
+.InfoClick h4 , p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.infoCotegories {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 20px 10px;
+    top: 50%;
+    width: 50%;
+    left: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+.Carousel {
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 37px;
+}
+
+@media only screen and (max-width: 600px) {
+   .Container {
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
+   }
+   .Card {
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+   }
+   .LastContainer {
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+   }
+   .BigContainer {
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    font-size: 16px;
+   }
+   .info {
+    height: 80px;
+   }
+   .InfoClick {
+    height: 60px;
+    text-align: right;
+    position: absolute;
+    left: 25%;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #141414;
+    p , h4 {
+        font-size: 16px;
+        text-align: right;
+    }
+   }
+   .GridContainers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .Row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a {
+        width: 100%;
+    }
+   }
+   .replaceToPage {
+    padding: 20px;
+    height: 80px;
+   }
+    .Carousel {
+        width: 90%;
+        padding: 0;
+    }
+   
+ }
+/* Corousel*/

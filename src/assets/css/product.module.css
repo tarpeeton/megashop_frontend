@@ -1,0 +1,226 @@
+.productSection {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 15px auto 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px, 1fr));
+    justify-content: space-evenly;
+}
+.ProductItems {
+    width: 250px;
+    height: 330px;
+    border-radius: 9px;
+    margin-top: 10px;
+    background-color: white;
+}
+.ItemImage {
+    width: 80%;
+    height: 160px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        img {
+            height: 130px;
+        }
+    }
+}
+.ProductItemname {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.ProductItemRating {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.CommentInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    svg {
+        color: #008dff;
+    }
+}
+.ProductItemName {
+    display: -webkit-box;
+    -webkit-box-orient: vertical ;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.ProductNavigationButtonsa {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    button {
+        border: none;
+        outline: none;
+    }
+    button:first-child {
+        height: 40px;
+        border-radius: 10px;
+        padding: 0 8px;
+        background-color: #008dff;
+        transition-duration: 0.5s;
+        p {
+            font-size: 15px;
+            font-weight: 100;
+            color: #ffffff;
+        }
+    }
+    button:first-child:hover {
+        transition-duration: 0.4s;
+        background-color: #094ae5;
+        color: #ffffff;
+    }
+    button:last-child {
+        width: 20%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00bfaf;
+    }
+}
+.ProductStatus {
+    position: absolute;
+    top: 15px ;
+    left: 15px;
+    z-index: 1;
+    p {
+        background-color: black;
+        border-radius: 8px;
+        padding: 3px 6px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+}
+
+
+.ProductCost  > p{
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    background-color: rgba(215, 180, 22, 0.87);
+    border-radius: 10px;
+}
+
+.RatingButton {
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: inherit;
+
+}
+.RatingButton:hover {
+    color: #ecc70b;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+/* RATING MODAL ++++++++++++++++++++++++++*/
+.modalBodyForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.userInfoRating {
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    input {
+        border: none;
+        outline: none;
+        padding: 8px 16px;
+        background-color: rgba(239, 235, 235, 0.98);
+    }
+    input:focus {
+        border: 1px solid rgba(13, 13, 232, 0.98);
+    }
+}
+.ratingIcons {
+    input {
+        display: none;
+    }
+}
+
+
+.starIcon:hover svg {
+    color: yellow;
+    transition: 0.5s;
+}
+
+.textAreaModal {
+    width: 100%;
+    height: 100%;
+ textarea{
+    width: 100%;
+     height: 100%;
+     padding: 4px;
+     outline: none;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .productSection {
+        width: 100%;
+        padding: 0 10px;
+        display: grid;
+        gap:25px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .ProductItems {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .ProductItemRating {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .ProductNavigationButtonsa {
+        gap: 5px;
+        button:first-child {width: 70%}
+        button:last-child {
+            width: 25%;
+        }
+    }
+   .userInfoRating {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    input {
+        width: 100%
+    }
+   }
+
+}

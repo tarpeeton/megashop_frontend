@@ -1,0 +1,240 @@
+.ConatinerWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.ContainerItems {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 15px auto 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: space-evenly;
+}
+.Conatiner {
+    display: flex;
+    flex-direction: row;
+}
+.ConatinerForm {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+    input:user-invalid {
+        border: 1px solid red;
+
+    }
+    button {
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 4px 8px;
+    }
+}
+.ContainerIlustration {
+    width: 40%;
+    background-color: #ecc70b;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.rowSearching {
+    display: flex;
+    padding: 8px 16px;
+    background-color: #f5f1f1;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #336fff;
+    border-radius: 8px;
+    svg {
+        width: 10%;
+    }
+    input {
+        width: 90%;
+        background-color: #f6f3f3;
+        outline: none;
+        border: none;
+        color: #000000;
+    }
+}
+
+.StarImage {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+    animation-name: StarAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+.StarImage:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 515px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+
+.StarImage:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+
+.StarImage:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    right: 520px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+.StarImage:nth-child(4) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+.StarImage:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 390px;
+    left: 220px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+.StarImage:nth-child(6) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 390px;
+    left: 420px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+.StarImage:nth-child(7) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 420px;
+    right: 320px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+.StarImage:nth-child(8) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    left: 220px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+.StarImage:nth-child(9) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    right: 920px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+.StarImage:nth-child(10) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    left: 820px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+.StarImage:nth-child(11) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 920px;
+    color: rgba(222, 208, 136, 0.64);
+
+    z-index: 0;
+}
+.StarImage:nth-child(12) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    color: rgba(222, 208, 136, 0.64);
+    z-index: 0;
+}
+
+@keyframes StarAnimation {
+     0%   {color: #98a632; top: 50px}
+     25%  {color: #d2d23e; left: 220px;right: 300px}
+     35%  {color: #c9c921; left: 0 ; top: 20px}
+     45%  {color: #e1e113;}
+     50%  {color: #c9c60f;}
+     65%  {color: yellow;}
+     100% {color: #e6ff04;}
+ }
+@media only screen and (max-width: 600px) {
+    .Conatiner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .ConatinerForm {
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .ContainerIlustration {
+        width: 50%;
+        margin: 0 auto;
+    }
+    form {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        input {
+            width: 70%;
+        }
+        button {
+            width: 30%;
+        }
+    }
+    .StarImage {
+        display: none;
+    }
+}

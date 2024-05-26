@@ -1,0 +1,97 @@
+/*Asosiy Container*/
+.ShopingContainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.Shoping {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ProductImage {
+    width: 150px;
+    img{
+        width: 100%;
+        height: 160px;
+    }
+}
+.ProductCotegories {
+    height: 50px;
+}
+.Row {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.ProductInfoPrice {
+    background-color: #ecc70b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ProductInfo {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical ;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.ProductPrice {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*SUmmary*/
+.Summary {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: #141414;
+    color: white;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ShopingContainer {
+        width: 100%;
+        height:100%;
+        padding: 0;
+    }
+    .Summary {
+        width: 100%;
+        padding: 10px 0 25px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .ProductPrice {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        button , p {
+            width: 100%;
+        }
+    }
+  }
+  

@@ -1,0 +1,54 @@
+.ProfileContainer {
+    width: 100%;
+    margin: 0 auto;
+    gap: 10%;
+}
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #aba7a7;
+    align-items: center;
+}
+.title > button {
+    width: 40px;
+    height: 40px;
+}
+.menuProfile {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-right: 1px solid #aba7a7;
+}
+.menuProfile > button {
+    margin-top: 10px;
+}
+.infoProfile {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.profileImage {
+    width: 100%;
+    border-bottom: 1px solid #aba7a7;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+}
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #aba7a7;
+    margin-top: 10px;
+}
+
+
