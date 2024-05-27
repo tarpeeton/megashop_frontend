@@ -2,7 +2,7 @@ import axios from "axios";
 
 // =============== (AXIOS) SETTINGS =============
 const instance = axios.create({
-    baseURL: "http://localhost:5050",
+    baseURL: "https://megashop-api.onrender.com",
 });
 
 
