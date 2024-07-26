@@ -32,7 +32,7 @@ const LastContainer = () => {
 
                 <div className={styles.GridChilderFull}>
                     <Link to="/product_list?categories=Maishiy Texnika" className={styles.GridChilder}>
-                        <img alt="Rasm" src="&quot;https://frankfurt.apollo.olxcdn.com/v1/files/yresezz6tqdy2-UZ/image&quot;"/>
+                        <img alt="Rasm" src="https://frankfurt.apollo.olxcdn.com/v1/files/yresezz6tqdy2-UZ/image"/>
                         <div className={styles.InfoClick}>
                             <p>Maishiy texnika</p>
                             <h4>Kafolati Bilan !</h4>
