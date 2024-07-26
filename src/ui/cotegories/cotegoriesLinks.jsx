@@ -11,7 +11,7 @@ const Links = () => {
                 <h3 className={styles.CotogoriesName}> Telefonlar </h3>
             </Link>
             <Link to="/product_list?categories=Uy Rozgor Buyumlari" className={styles.Card}
-                  style={{backgroundImage: `url('https://srcyrl.ootakukan.com/uploads/202339140/small/electric-fans-for-camping36219042-ca01-4d38-81ca-f9d9691d21ae.jpg')`}}>
+                  style={{backgroundImage: `url('https://myuborka24.ru/cases-img/hozka-main.webp')`}}>
                 <h3 className={styles.CotogoriesName}> Uy Ro'zgor Buyumlari </h3>
             </Link>
             <Link to="/product_list?categories=ChinniBuyumlar" className={styles.Card}
@@ -19,22 +19,22 @@ const Links = () => {
                 <h3 className={styles.CotogoriesName}> Chinni Buyumlar </h3>
             </Link>
             <Link to="/product_list?categories=AvtomobilQismlari" className={styles.Card}
-                  style={{backgroundImage: `url(https://olmashop.uz/media/images/Category/Avtotovarlar.jpg)`}}>
+                  style={{backgroundImage: `url('https://st2.depositphotos.com/2518853/8028/v/450/depositphotos_80282876-stock-illustration-vector-car-spares-concept-with.jpg)`}}>
                 <h3 className={styles.CotogoriesName}> Avtomobil Qismlari </h3>
             </Link>
-            <Link to="/product_list?categories=QurilishVaTa'mirlash" className={styles.Card} style={{backgroundImage: `url(${ishQurrolari})`}}>
+            <Link to="/product_list?categories=QurilishVaTa'mirlash" className={styles.Card} style={{backgroundImage: `url('https://avtosreda.ru/info/uploads/articles/2023/03/13/stroitelnie-materiali.jpg')`}}>
                 <h3 className={styles.CotogoriesName}> Qurilish va taʼmirlash</h3>
             </Link>
             <Link to="/product_list?categories=Go'zallik va Parvarish" className={styles.Card}
-                  style={{backgroundImage: `url(https://olmashop.uz/media/images/Category/Go%CA%BBzallik_va_parvarish.jpg)`}}>
+                  style={{backgroundImage: `url('https://worldclassmag.com/files/nodus_items/0004/2457/_cache/fit988x988-image-2457-1586269893.jpg')`}}>
                 <h3 className={styles.CotogoriesName}>Go'zallik va Parvarish</h3>
             </Link>
             <Link to="/product_list?categories=Maishiy Texnika" className={styles.Card}
-                  style={{backgroundImage: `url(https://olmashop.uz/media/images/Category/Maishiy_texnika.jpg)`}}>
+                  style={{backgroundImage: `url('https://frankfurt.apollo.olxcdn.com/v1/files/yresezz6tqdy2-UZ/image')`}}>
                 <h3 className={styles.CotogoriesName}>Maishiy texnika</h3>
             </Link>
             <Link to="/product_list?categories=Elektronika" className={styles.Card}
-                  style={{backgroundImage: `url(https://olmashop.uz/media/images/Category/elektronika.jpg)`}}>
+                  style={{backgroundImage: `url('https://st.depositphotos.com/1000651/4362/i/450/depositphotos_43626833-stock-photo-morher-board-background.jpg')`}}>
                 <h3 className={styles.CotogoriesName}>Elektronika</h3>
             </Link>
         </>
