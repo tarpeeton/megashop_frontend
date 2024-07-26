@@ -11,7 +11,7 @@ const Links = () => {
                 <h3 className={styles.CotogoriesName}> Telefonlar </h3>
             </Link>
             <Link to="/product_list?categories=Uy Rozgor Buyumlari" className={styles.Card}
-                  style={{backgroundImage: `url(https://olmashop.uz/media/images/Category/uy-rozgor.jpg)`}}>
+                  style={{backgroundImage: `url('https://srcyrl.ootakukan.com/uploads/202339140/small/electric-fans-for-camping36219042-ca01-4d38-81ca-f9d9691d21ae.jpg')`}}>
                 <h3 className={styles.CotogoriesName}> Uy Ro'zgor Buyumlari </h3>
             </Link>
             <Link to="/product_list?categories=ChinniBuyumlar" className={styles.Card}
