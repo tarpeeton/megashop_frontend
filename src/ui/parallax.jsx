@@ -14,7 +14,7 @@ const Parallax = () => {
                  }}>
             </div>
             <div className={style.Parralax}  style={{width: '100' , height: '50vh' ,
-                backgroundImage: `url('https://cdn.shopify.com/s/files/1/0761/7970/2080/files/1200x800_0df1150f-f496-4796-a830-d34a862c4696_1200x.jpg?v=1715941961')`,
+                backgroundImage: `url('https://www.cgdirector.com/wp-content/uploads/media/2023/02/Is-MSI-a-Good-Laptop-Brand-Twitter-1200x675.jpg')`,
                 backgroundPosition:'center center' ,
                 backgroundRepeat:'no-repeat',
                 padding: "40px"
