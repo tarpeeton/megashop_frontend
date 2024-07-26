@@ -13,7 +13,6 @@ const Parallax = () => {
                      backgroundRepeat:'no-repeat',
                  }}>
             </div>
-            </div>
         </>
     )
 }
