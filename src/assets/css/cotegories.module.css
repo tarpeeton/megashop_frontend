@@ -25,14 +25,17 @@
 .Card:hover {
     cursor: pointer;
     transition-duration: 0.3s;
-    transform: translateY(-10px);
+    transform: translateY(-13px);
 }
 .CotogoriesName {
-    width: 80%;
+   width: 80%;
     font-size: 20px;
     position: absolute;
-    transition-duration: 0.2s;
-    color: white;
+    transition-duration: .3s;
+    color: #030303;
+    padding: 4px;
+    background: azure;
+    border-radius: 8px;
     font-weight: 700;
     left: 10%;
     right: 10%;
