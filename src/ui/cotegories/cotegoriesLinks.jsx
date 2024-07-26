@@ -7,7 +7,7 @@ const Links = () => {
     return (
         <>
             <Link to="/product_list?categories=Smartfon" className={styles.Card}
-                  style={{backgroundImage: `url("https://olmashop.uz/media/images/Category/iphone-15.jpg")`}}>
+                  style={{backgroundImage: `url("https://images.uzum.uz/cnhjftku2hhlb05gcnj0/original.jpg")`}}>
                 <h3 className={styles.CotogoriesName}> Telefonlar </h3>
             </Link>
             <Link to="/product_list?categories=Uy Rozgor Buyumlari" className={styles.Card}
